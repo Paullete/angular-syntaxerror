@@ -1,0 +1,71 @@
+*{margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 160vh;
+    width: 100%;
+    background-image: url(pictures/Water-Drop-Pastel-Pink-Background-Pink-Background-6940752.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.nav{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: greenyellow;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: double;
+
+}
+
+h2{color: blue;
+    width: 160px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+
+
+}
+.content .btn{
+    display:inline-block;
+    background: linear-gradient(45deg, #fefc87, #8eff77);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0,15);
+    margin-top: 24px;
+    margin-bottom: 15px;
+
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -80px;
+    bottom: 180px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #a3fe87;
+    padding-right: 20px;
+    font-size: 14px;
+}
