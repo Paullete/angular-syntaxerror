@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   
 })
 export default class InterpolationComponent {
+
+        name: string = 'Interpolation Component';
+        cars = ['Toyota', 'Mazda', 'Bmw'];
+        person = { name: 'Angie', age: 23, car: 'Toyota' };
+        isRich = true;
+      
+        constructor() {
+          setTimeout(() => {
+            this.name = 'Interpolation Component 2.0.0';
+          }, 4000);
+        }
+      
   
 }
