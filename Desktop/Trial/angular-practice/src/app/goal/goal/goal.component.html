@@ -1,0 +1,5 @@
+<p>goal works!</p>
+<!-- <div *ngFor='let goal of goals;let i = index'>
+    <li appStrikethrough>{{goal.name}} due on {{goal.completeDate}}</li> -->
+    <div *ngFor='let goal of goals;let i = index'>
+        <li appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</li>
