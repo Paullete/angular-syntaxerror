@@ -9,10 +9,12 @@ import TheInterpolationComponent from './basics/databinding/interpolationcompone
 import { PropertyBindingComponent } from './basics/databinding/property-binding/property-binding.component';
 import { EventBindingComponent } from './basics/databinding/event-binding/event-binding.component';
 import { GoalComponent } from './goal/goal/goal.component';
+import { DateCountPipe } from './date-count.pipe';
+import { GoalDetailComponent } from './goal/goal-detail/goal-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent, MyFirstComponent, MySecondComponentComponent, TheInterpolationComponent, PropertyBindingComponent, EventBindingComponent, GoalComponent, 
+    AppComponent, MyFirstComponent, MySecondComponentComponent, TheInterpolationComponent, PropertyBindingComponent, EventBindingComponent, GoalComponent, DateCountPipe, GoalDetailComponent, 
   ],
   imports: [
     BrowserModule
