@@ -11,10 +11,11 @@ import { EventBindingComponent } from './basics/databinding/event-binding/event-
 import { GoalComponent } from './goal/goal/goal.component';
 import { DateCountPipe } from './date-count.pipe';
 import { GoalDetailComponent } from './goal/goal-detail/goal-detail.component';
+import { TwoWayDataBindingComponent } from './basics/databinding/two-way-data-binding/two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent, MyFirstComponent, MySecondComponentComponent, TheInterpolationComponent, PropertyBindingComponent, EventBindingComponent, GoalComponent, DateCountPipe, GoalDetailComponent, 
+    AppComponent, MyFirstComponent, MySecondComponentComponent, TheInterpolationComponent, PropertyBindingComponent, EventBindingComponent, GoalComponent, DateCountPipe, GoalDetailComponent, TwoWayDataBindingComponent, 
   ],
   imports: [
     BrowserModule
