@@ -13,10 +13,12 @@ import { DateCountPipe } from './date-count.pipe';
 import { GoalDetailComponent } from './goal/goal-detail/goal-detail.component';
 import { TwoWayDataBindingComponent } from './basics/databinding/two-way-data-binding/two-way-data-binding/two-way-data-binding.component';
 import { StructuralDirectivesComponent } from './basics/directives/structural-directives/structural-directives.component';
+import { TheChildComponentComponent } from './basics/component-data-binding/child-parent/the-child-component/the-child-component.component';
+import { ParentComponentComponent } from './basics/component-data-binding/parent-child/parent-component/parent-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent, MyFirstComponent, MySecondComponentComponent, TheInterpolationComponent, PropertyBindingComponent, EventBindingComponent, GoalComponent, DateCountPipe, GoalDetailComponent, TwoWayDataBindingComponent, StructuralDirectivesComponent, 
+    AppComponent, MyFirstComponent, MySecondComponentComponent, TheInterpolationComponent, PropertyBindingComponent, EventBindingComponent, GoalComponent, DateCountPipe, GoalDetailComponent, TwoWayDataBindingComponent, StructuralDirectivesComponent, TheChildComponentComponent, ParentComponentComponent, 
   ],
   imports: [
     BrowserModule, FormsModule
