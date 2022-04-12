@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-the-child-component',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./the-child-component.component.css']
 })
 export class TheChildComponentComponent implements OnInit {
+  @Output() addCar = new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+  addItem() {
+    this.addCar.emit('Prado');
+  } 
 
 }

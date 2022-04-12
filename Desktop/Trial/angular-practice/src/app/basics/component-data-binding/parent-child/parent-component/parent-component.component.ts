@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent-component.component.css']
 })
 export class ParentComponentComponent implements OnInit {
-
+  cars = ['Probox', 'Audi', 'Lexus'];
   constructor() { }
 
   ngOnInit(): void {
   }
+  addACar = (car: string) => {
+    this.cars.push(car);
+  };
 
 }
